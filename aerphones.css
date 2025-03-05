@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+    background-color: #121212;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    height: 60px;
+}
+
+
+.logo img {
+    height: 40px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.nav-icons {
+    display: flex;
+    gap: 20px;
+    color: #fff;
+}
+
+
+.hamburger {
+    display: none;
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+/* General styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 20px 0;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+    padding-top: 80px;
+}
+.nav-icons {
+    display: flex;
+    gap: 20px;
+    color: white; /* Ensure the container text color is white */
+}
+
+.nav-icons a {
+    color: white; /* Set the icon color to white */
+    text-decoration: none; /* Remove underline from links */
+    transition: color 0.3s ease; /* Optional: Add a smooth transition effect */
+}
+
+.nav-icons a:hover {
+    color: #e74c3c; /* Optional: Change color on hover */
+}
+.product {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 15px;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.product img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.product h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #333;
+}
+
+.product p {
+    font-size: 0.9rem;
+    margin: 5px 0;
+    color: #555;
+}
+
+.product .price {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #28a745;
+    margin: 10px 0;
+}
+
+.product .rating {
+    font-size: 0.9rem;
+    color: #ffc107;
+}
+
+.product .description {
+    font-size: 0.9rem;
+    color: #777;
+    margin: 10px 0;
+}
+
+.product .type {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 5px 0;
+}
+
+.product .in-stock {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #28a745;
+    margin: 10px 0;
+}
+
+.product .out-of-stock {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #dc3545;
+    margin: 10px 0;
+}
+
+.add-to-cart {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    margin-top: 10px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.add-to-cart:hover {
+    background-color: #218838;
+}
+
+.add-to-cart:disabled {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
